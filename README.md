@@ -1,4 +1,4 @@
-                                   ## Movie Review Sentiment Analysis Project using LSTM
+#### Movie Review Sentiment Analysis Project using LSTM
 This project is focused on sentiment analysis of movie reviews using Long Short-Term Memory (LSTM), a type of recurrent neural network (RNN) architecture. The aim of the project is to develop a model that can accurately classify movie reviews as positive or negative based on their textual content, and deploying the model using Flask, a web framework for Python.
 
 # Dataset
