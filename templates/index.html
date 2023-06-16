@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Analysis</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Movie Sentiment Analysis</h1>
+        <form class="form-container" action="http://127.0.0.1:5000/predict"  method="post">
+            <input type="text" id="moviereview"  placeholder="Enter Movie Review..." name = 'review'>
+            <button type = 'submit' id="analyze-button">Analyze</button>
+        </form>
+        <h1>{{pred}}</h1>   
+    </div>
+</body>
+</html>
